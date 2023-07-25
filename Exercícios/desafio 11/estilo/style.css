@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+
+
+:root{ --cor01:#78d47c;
+        --cor02:#08e913;
+        --cor03:#098ce4;
+        --cor04:#b4b4b4;
+        --cor05:#666666;
+        --fontheader:'Tektur',Arial, sans-serif;
+        --fontartigo:'Merriweather','Times New Roman', Times, serif;
+
+}
+
+*{margin: 0px;
+padding: 0px;}
+
+
+body { background-color: #78d47c;}
+
+header{ background-color: var(--cor03); font-family: var(--fontheader); color:var(--cor04);}
+
+main{background-color: white;}
+
+footer{background-color: var(--cor05); color: white;}
+
+

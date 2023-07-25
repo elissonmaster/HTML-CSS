@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+@font-face {
+    font-family:script;
+    src: url(script.ttf)format(truetype);font-weight: normal;font-style: normal;
+}
+
+*{font-family: arial,sans-serif;}
+
+h1,h2{font-family: script,sans-serif;}
+  
+
+h1{text-align: center;font-size: 2em;}
+h2{text-align: right; font-size: 1,7em;}
+p{text-align: justify;}
+
+
+
+.n2,.n1{text-shadow: 0px 0px 2px black;
+text-align: right;}
+
+h2.n1,h2.n2{color: brown;}
+
+
+
+div{background-color: brown;
+height: 100px;
+width: 100px;
+border-radius: 50%;
+box-shadow: 5px 5px 10px black;
+margin:0 auto ;}
+

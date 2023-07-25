@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Los Santos;
+    src: url(OldLondon.ttf) format(truetype) ; font-weight: normal; font-style: normal;
+}
+
+@font-face {
+    font-family: Ar;
+    src: url(THEBOLDFONT.ttf) format(truetype) ; font-weight: normal; font-style: normal;
+}
+
+
+
+
+
+h2.categorias 
+h2.noticias 
+
+
+
+
+h1#titulo{font-family: Los Santos; font-weight: lighter; font-size: 3em;background-color: brown;color: white;
+text-align: center; 
+}
+
+div{width: 150px;}
+
+div > p { display: none; text-indent: 30px;}
+
+
+div:hover{ color: #fcfafa;background-color: brown; font-family: Ar;}
+
+div:hover > p {display: block;}

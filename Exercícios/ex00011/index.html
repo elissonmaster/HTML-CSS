@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens e Dimensões</title>
+    </head>
+    <body>
+        <h2>imagens</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit assumenda asperiores id illo pariatur praesentium sed quis minus rerum, tempora, beatae laborum harum. Unde pariatur, excepturi earum ad repellendus atque?</p>
+        <hr>
+        <picture>
+            <source media="(max-width:700px )" srcset="imagens/jP.jpg" type="image/jpg">
+            <source media="(max-width:900px )" srcset="imagens/jM.jpg" type="image/jpg">
+
+            <img src="imagens/jG.jpg" alt="">
+        </picture>
+
+        <h2>Reproduzindo videos</h2>
+
+    <video width="800" poster="imagens/jG.jpg" autoplay loop controls >
+        <source src="midia/videopm4.mp4" type="video/mp4">
+        <source src="midia/videomkv.mkv" type="video/mp4">
+        <source src="midia/videowebm.webm" type="video/webm">
+        <p>Infelizmente o seu navegador não possui reprodução de midia 
+            <br> clique no link para o <a href="midia/videopm4.mp4">download</a> </p>
+
+    </video>
+<h1>Inserindo video do youtube</h1>
+
+<iframe width="800" height="400" src="https://www.youtube.com/embed/6YwbZbHRQ8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h1>Acrescentando video do vimeo</h1>
+<iframe src="https://player.vimeo.com/video/485545155?h=b61816ff9a&autoplay=1&title=0&byline=0&portrait=0" width="400" height="225" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>

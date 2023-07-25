@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css2?family=Righteous&display=swap);
+
+body{}
+
+header > h1 { font-family: 'Righteous', sans-serif; color: white;
+     margin-left: 100px; padding-top: 10px; }
+
+header{ background-color: #a52a2a; height: 130px; border-radius: 20px;}
+
+
+nav{font-family: 'Righteous', sans-serif; color: white;  }
+
+span{ margin-left: 30px; margin-right: 40px;}
+
+footer{margin: 0px; background-color: brown; text-align: center;
+     font-family: 'Times New Roman', Times, serif; color: white; padding: 6px; margin-top: 10px;}
