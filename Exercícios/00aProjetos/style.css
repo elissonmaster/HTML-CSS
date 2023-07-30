@@ -34,4 +34,5 @@ article.recep { background-image: url("proj01/imagens/InterContinental-Lisbon-5-
          text-align: justify;}
 
 
-footer { background-color: #3a3d3d; color: white;}
+footer { background-color: #3a3d3d; color: white; background-image: url('proj01/imagens/1000_F_31905252_NODxdDk5SnwdwtJHgIl6Pi6aJ93QxwZA.jpg'); background-repeat: no-repeat ; 
+     background-size: cover; background-attachment: fixed; ; height: 100px;}
