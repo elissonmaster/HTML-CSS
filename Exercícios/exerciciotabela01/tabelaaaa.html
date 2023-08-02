@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table { width: 500px; border-collapse: collapse; font-family: Arial, Helvetica, sans-serif; text-align: center;}
+           th{ font-weight: bold; background-color: black; color: white;}
+          th,  td{ border: 1px solid black; padding: 8px; }
+          caption{ background-color: gray; font-size: 1.5em; font-weight: bold;}
+
+            .Nome{ background-color: aqua;}
+            .Sexo { background-color: greenyellow;}
+            .Profissão { background-color: chocolate;}
+
+
+            .container { overflow: auto; width: 50vw;}
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <table>
+            <colgroup>
+            <col class="Nome">
+            <col class="Sexo">
+            <col class="Profissão">
+            <col class="Idade">
+        
+        
+        
+        </colgroup>
+                <tr>  <th scope="col">Nome</th> <th scope="col">Sexo</th> <th scope="col">Profissão</th> <th scope="col">Idade</th></tr>
+                <tr><td>Elisson</td> <td>M</td> <td> Developer</td> <td>26</td></tr>
+                <tr><td>Juliana</td><td>F</td><td>Recepcionista</td><td>20</td></tr>
+                <tr><td>Bilbo</td><td>M</td><td>Aventureiro</td><td>89</td></tr>
+                <tr><td>Frodo</td><td>F</td><td>Aventureira</td><td>28</td></tr>
+                <Caption>Cadastro</Caption>
+        </table>
+    </div>
+    
+</body>
+</html>
