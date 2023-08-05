@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Passion+One&family=Sriracha&display=swap');
-/* font-family: 'League Spartan', sans-serif; */ 
+/* font-family: 'League Spartan', sans-serif;       #64103e      #ff2da1     #9b2566           */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+ /* font-family: 'Dancing Script', cursive; */ 
 
 
 
@@ -7,7 +10,7 @@
 
 body { background-color: blanchedalmond; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
-header {background-image: linear-gradient( -10deg, #64103e,black, #000000); color: white; font-family: Arial, Helvetica, sans-serif;}
+header {background-image: linear-gradient( -8deg, #9b2525 ,black, #000000); color: white; font-family: Arial, Helvetica, sans-serif;}
 
 header > img { padding-left: 10%; margin: 3% 0px 0px 0px;}
 
@@ -19,3 +22,55 @@ nav ul li {display: inline-block; margin-right: 3rem; }
 
 nav a { color: white; text-decoration: none; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;}
 
+.sone { background-image: linear-gradient( 200deg, #9b2525 ,black, black); color: white; height: 65vh; position: relative;}
+
+.sone1 { padding-left: 10%; padding-top: 3%;}
+
+.sone1 > sub { display:inline-block; width: 180px; padding-top: 1%;}
+
+.sone1 h1 { font-size: 2.2em; display: block; max-width: 300px;}
+
+.sone img { position: absolute; left: 70%; top: 5%;}
+
+button { background-image: url("imagem/258908-fundo-abstrato-linda-textura-rosa-gratis-vetor.jpg"); background-size: 100% 100%;
+     padding: 1% ; color: white; font-size: 1.5em; border-radius: 20%; border: #000000; margin-top: 2%; font-family:'League Spartan', sans-serif; font-weight: lighter
+     ; font-variant: small-caps;}
+
+.sone2 { background-image: url("imagem/258908-fundo-abstrato-linda-textura-rosa-gratis-vetor.jpg"); background-size: cover;
+background-repeat: no-repeat; background-position: center bottom; background-attachment: fixed; box-shadow: inset 0px 0px 10px #000000; position: relative;}
+
+.sone2  h2 { font-size: 5em; color: white; font-family:'League Spartan', sans-serif; display: inline-block;}
+.sone2  p { display: inline-block; color: white; width: 200px;}
+
+.sone2  sub { padding-left: 30%; padding-bottom: 50px;}
+
+.sone2 div { display: inline-block; padding: 15px;}
+
+.sone2 img { padding: 5px; position: absolute; left: 8%;}
+
+.sone3 { background-image: url("imagem/enkfkl.jpg"); height: 60vh; background-repeat: no-repeat;
+     background-size: cover; color: white;}
+
+
+     .sone3 h1 { font-size: 4em; font-family: 'League Spartan', sans-serif; font-variant: small-caps;}
+
+     .sone3 h2 { font-size: 2em; font-family: 'League Spartan', sans-serif; font-variant: small-caps;}
+
+     .sone3 p { font-family: 'Dancing Script', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+
+     div.para { width: 400px;}
+
+     .sone3 > div { padding-top: 5%; padding-left: 25%;}
+
+     footer { background-color: #000000; color: white; padding-top: 5px; text-align-last: center; font-size: .5; font-variant: small-caps;}
+
+
+
+                                /* ABAIXO EFFECTS */ 
+
+
+                                nav a:hover { color: #cf215b; text-decoration: underline; transition: 1s;}
+
+
+                                 /* ABAIXO RESPONSIVIDADE */
