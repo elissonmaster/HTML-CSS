@@ -61,14 +61,22 @@ main { margin-top: 3%; position: relative;}
 .escolha { padding-left: 2%;}
 
 iframe { width: 700px; height: 350px; position: absolute; top: 0%; left: 37%; border: 8px #FF576B dashed;
-box-shadow: inset 2px 2px 2px black;}
+box-shadow: inset 2px 2px 2px black; border: 20px solid rgba(121, 114, 114, 0.137) ;}
 
 .uber1 ,.uber2 { border-radius: 50%; display: block;}
 
 .uber1 { margin-bottom: 3%;}
 
-.uber1 { position: absolute; left: 92%; top: 10%;}
+.uber1 { position: absolute; left: 93%; top: 10%;}
 
-.uber2 { position: absolute; left: 92%; top: 40%;}
+.uber2 { position: absolute; left: 93%; top: 40%;}
+
+.uber1:hover,.uber2:hover { border: 10px solid #6d2d2d ;}
 
 footer { background-color: #6d2d2d; color: white; text-align: center; padding: 8px; margin-top: 4%; font-size: .8em;}
+
+#sle img { box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555); border: 2px rgba(220, 220, 220, 0.308);border-radius: 30%; margin-right: 1%; margin-bottom: 1%;  }
+
+#sle img:hover { box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555); border: 10px rgba(220, 220, 220, 0.308); transform: translate(-10px, -10px) ; }
+
+.icones img:hover { transform: translate(-5px,-5px);}
