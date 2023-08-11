@@ -10,12 +10,16 @@
         <form autocomplete="on" method="get" action="cadastro.php"> 
 
             <label for="inome">
-                <p>Nome:     
-            </label>   <input type="text" name="nome" id="inome"></p>
-            <p><label for="iadress">Endereço</label>:
-                 <input type="text" name="adress" id="iadress"></p>
+                <p>Usuário:     
+            </label>   <input type="text" name="nome" id="inome" required minlength="8" size="6" placeholder="Usuário" autocomplete="username"></p>
+            <p><label for="iadress">Senha</label>:
+                 <input type="password" name="adress" id="iadress" required placeholder="Digite sua senha" autocomplete="current-password"></p>
             <input type="submit" value="Enviar">
         </form>
+
+
+        
+
 
 </body>              
 </html>
