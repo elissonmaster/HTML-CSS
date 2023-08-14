@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&family=The+Nautigal&display=swap');
+/* font-family: 'Dancing Script' */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&family=Teko:wght@300&display=swap');
+/* font-family: font-family: 'Teko', sans-serif; */
+
+
+@font-face {
+    font-family: "digi", Arial, Helvetica, sans-serif;
+    src: url("font/digital-7.ttf");
+}
+@font-face {
+    font-family: "bea", Arial, Helvetica, sans-serif;
+    src: url("font/FontsFree-Net-BeautifullyDelicious.ttf");
+}
+
 @font-face {
     font-family: "finance",Arial, Helvetica, sans-serif;
     src: url("font/Finance.ttf");
@@ -11,7 +27,54 @@
 
 *{ font-family:  "textfont", 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif; margin:0; padding: 0;}
 
-body { background-image: url("imagens/background.jpg"); height: 100vh; background-size: cover; background-repeat: no-repeat;}
+body { background-image: url("imagens/bbsj2b.jpg"); height: 100vh;  background-repeat: repeat; background-size: cover; background-attachment: fixed; background-position: center top;}
 
-header{ }
+header{ background:transparent; background-size: cover; text-align: center; background-repeat: no-repeat; padding-bottom: 1.5%;}
 
+.titulo { font-family: 'The Nautigal', sans-serif; color: #F4A330; margin-top: -75px; padding: 0; font-size: 1.5em;}
+
+.divhe { padding-bottom: 3%; display: inline;}
+
+.heas { display: inline-block;}
+
+.cab { margin-bottom: 2%;}
+
+main { font-family: "finance",Arial, Helvetica, sans-serif;}
+
+.sec1 { background-color: white; height: 400px; width: 300px; margin-top: 5%; margin-left: 7% ; color: #ffffff; padding-top: 3%; position: relative;
+     background-image: linear-gradient(-10deg, #00f884, rgb(53, 134, 201)); border-radius: 8%; font-weight: bolder; font-variant: small-caps
+    ; box-shadow: 1px 1px 1px #00000056; border: solid .7px #0000006b ;}
+
+.itemsec { padding: 1%; padding-top: 8%; text-align: center;}
+
+.secim >img { padding: 13%; }
+
+.logo2 { position: absolute; top: 10%; left: 70%;}
+
+.sec2 { background-color: white; height: 400px; width: 300px; margin-top: 5%; margin-left: 7% ; color: #ffffff; padding-top: 3%; position: relative;
+    background-image: linear-gradient(-10deg, #000000,#636464, #636464); border-radius: 8%; font-weight: bolder; font-variant: small-caps
+   ; box-shadow: 1px 1px 1px #00000056; border: solid .7px #0000006b ; position: absolute; top: 21%; left: 30%; ;}
+
+
+
+.button1 { background-color: #F4A330; margin-top: 5%; padding: 2%; margin-left: 3%; color: white; font-size: 1em; border-radius: 15%; font-weight: bolder; font-variant: small-caps}
+
+#sec3 {  height: 400px; width: 400px; margin-top: 5%; margin-left: 7% ; color: #ffffff; padding-top: 3%; position: relative;
+    background-image: linear-gradient(-8deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5); border-radius: 8%; font-weight: bolder; font-variant: small-caps
+   ; box-shadow: 1px 1px 1px #00000056; border: solid .7px #0000006b ; position: absolute; top: 21%; left: 60%; ;}
+
+   .ui { padding-left: 5%;}
+
+   
+   .mas { position: absolute; top: 35%; left: 4%;}
+   .mas2 { position: absolute; top: 35%; left: 30%;}
+
+
+   /* EFFECTS */
+
+   .sec1:hover { transform: translate(-10%,-10%); box-shadow: 4px 4px 8px #0000006b; }
+   .sec2:hover { transform: translate(-10%); box-shadow: 4px 4px 8px #0000006b; }
+   #sec3:hover { transform: translate(-10%, -10%); box-shadow: 4px 4px 8px #0000006b; }
+
+   footer { text-align: center; padding: 4%; color: white; }
+   

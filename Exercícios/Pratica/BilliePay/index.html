@@ -3,53 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BilliePay</title>
+    <title>BcardPay</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <div>
-            <img src="" alt="">
-            <section> <form action="billiepay.php" method="post" autocomplete="on">
-                <div> <p><label for="iusu">Login :</label> <input type="text" name="Nome" id="iusu"></p></div>
-                <div> <p><label for="ics">Senha:</label> <input type="text" name="Nome" id="ics"></p></div></form>
-        </div>
+        
+            <div class="divhe">
+                <p class="cab"><img src="imagens/logoheader.png" alt="logo1"> <h1 class="titulo">Conectando o mundo a você.</h1></p>
+            </div>                
+       
+
 
     </header>
 
-    <section> <form action="billiepay.php" method="post" autocomplete="on">
-        <div> <p><label for="inome">Nome :</label> <input type="text" name="Nome" id="inome"></p></div> 
-        <div> <p><label for="iadress">Endereço:</label> <input type="text" name="Nome" id="iadress"></p></div> 
-        <div> <p><label for="idd">Idade:</label> <input type="date" name="Nome" id="idd"></p></div> 
-    </form>
-    </section>
-
-    <section>
-        <form action="billiepay.php" method="post" autocomplete="on">
-            <div> <p><label for="inum">Número do Cartão:</label> <input type="text" name="Nome" id="inum"></p></div> 
-            <div> <p><label for="ival">Data de Validade</label> <input type="month" name="Nome" id="ival"></p></div> 
-            <div> <p><label for="isn">Senha</label> <input type="password" name="Nome" id="isn"></p>
-            <input type="submit" value="billiepay">
-            </div>
-             
+    <main>
+        <section class="sec1"> <form action="billiepay.php" method="post" autocomplete="on">
+            <div class="itemsec"> <p><label for="inome">Nome </label> <br> <br>  <input type="text" name="Nome" id="inome"></p></div>
+            <div class="itemsec" > <p><label for="iadress">Registre o QR-Code</label> <br> <br> <input type="file" name="qr-cdoe" id="iqr"> </p></div>
+            <img style=" padding-left: 30%;" src="imagens/qr.png" alt="">
         </form>
-    </section>
-    
-    <section>          <form action="billiepay.php" method="post" autocomplete="on">
-        <div> 
+        <sub class="secim"><img src="imagens/Mastercard-Logo1.png" alt=""><img src="imagens/card-chip-800x450.png" alt=""></sub>
+        <img class="logo2" src="imagens/logocard.png" alt="">
+        </section>
+        <section class="sec2">
+            <img style="padding-left: 10%;" src="imagens/logocard.png" alt=""> <img style="padding-left: 30%;" src="imagens/card-chip-800x450.png" alt="">
 
-            <h2>Confirme o plano:</h2>
-            <div> <p><label for="ira">plan1:</label> <input type="radio" name="Nome" id="ira"></p> 
-             <p><label for="ira">plan2:</label> <input type="radio" name="Nome" id="ira"></p> 
-             <p><label for="ira">plan3:</label> <input type="radio" name="Nome" id="ira"></p> 
-            <div> <p><label for="iself">Anexe uma foto ou registre uma self:</label> <input type="file" name="Nome" id="iself"></p></div> 
-
-            <!--    FOTO DE PERFIL COMO EXEMPLO PARA SELF AO LADO -->
-        </div>
+           
+            <form action="billiepay.php" method="post" autocomplete="on">
+                <div> <p style="color: white; padding-left: 8%;"><br><br><br><br><br><label for="inum">Número do Cartão:</label> <br> <input type="number" name="Nome" id="inum" size="70"></p></div>
+                <div> <br><br><p style="padding-left: 10%; "><label for="ival">Data de Validade</label> <input type="month" name="Nome" id="ival"  ></p></div>
+                <div style="text-align: right; padding-right: 11%; padding-top: 1%;"> <p><br><label for="isn"><img src="imagens/cad.png" alt=""></label> <input type="password" name="Nome" id="isn" size="5"></p>
+                                </div> 
+                                <input class="button1" type="submit" value="Salvar"> <input class="button1" type="reset" value="Apagar">
+        
+            </form>
+        </section>
          
-    </form>
-    </section>
-    
+        <section id="sec3">          <form action="billiepay.php" method="post" autocomplete="on">
+            <div> <p><img src="imagens/4.png" alt=""></p> <p style="text-align: right;"><img src="imagens/self.png" alt=""></p>
+                <img class="mas" src="imagens/Mastercard-Logo1.png" alt=""> <img class="mas2" src="imagens/card-chip-800x450.png" alt="">
+                <div class="ui">
+                    <div style="margin-top: -20px; margin-bottom: 6%;"> <p><label for="iself">Registre uma self:</label> <input type="file" name="Nome" id="iself"></p></div>
+                    <h2>Cliente BCard:</h2>
+                    <div> <p><label for="ira">plan Basic:</label> <input type="radio" name="Nome" id="ira"></p>
+                     <p><label for="ira">Plan Gold:</label> <input type="radio" name="Nome" id="ira"></p>
+                     <p><label for="ira">Plan Silver:</label> <input type="radio" name="Nome" id="ira"></p>
+                     <p style="text-align: right; padding-right: 8%; margin-top: -30px;"><input style="text-align: right; padding-right: 5%; background-color: #8937C3; color: white; font-size: 1em; border-radius: 15%; font-weight: bolder; font-variant: small-caps; padding: 6%; margin-top: -200px; " type="submit" value="Enviar"></p>
+                </div>
+              
+                <!--    FOTO DE PERFIL COMO EXEMPLO PARA SELF AO LADO -->
+            </div>
+        
+        </form>
+        </section>
+    </main>
+    <footer> BCard Copyright - Salador - Liberdade - Linha 8 - Avenida Peixe</footer>
 </body>
 </html>
